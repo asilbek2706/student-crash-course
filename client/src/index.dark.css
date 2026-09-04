@@ -1,0 +1,415 @@
+/* =========================================
+   DARK MODE
+========================================= */
+
+body.dark-mode {
+  background: #080d18;
+  color: #e5e7eb;
+}
+
+/* =========================================
+   HEADER
+========================================= */
+
+body.dark-mode .page-header h1 {
+  color: #f8fafc;
+}
+
+body.dark-mode .page-header p {
+  color: #94a3b8;
+}
+
+body.dark-mode .theme-toggle {
+  border-color: #263247;
+  background: #111827;
+  color: #facc15;
+
+  box-shadow: none;
+}
+
+body.dark-mode .theme-toggle:hover {
+  border-color: #3b4a63;
+  background: #172033;
+}
+
+/* =========================================
+   STATISTICS
+========================================= */
+
+body.dark-mode .stat-card {
+  background: #111827;
+  border-color: #1f2a3d;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18);
+}
+
+body.dark-mode .stat-card:hover {
+  background: #131d2e;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+body.dark-mode .stat-info span {
+  color: #94a3b8;
+}
+
+body.dark-mode .stat-info strong {
+  color: #f1f5f9;
+}
+
+body.dark-mode .stat-icon {
+  background: #1e1b4b;
+  color: #818cf8;
+}
+
+body.dark-mode .stat-card.success .stat-icon {
+  background: #052e24;
+  color: #34d399;
+}
+
+body.dark-mode .stat-card.danger .stat-icon {
+  background: #3b1118;
+  color: #f87171;
+}
+
+body.dark-mode .stat-card.primary .stat-icon {
+  background: #172554;
+  color: #60a5fa;
+}
+
+body.dark-mode .stat-card.warning .stat-icon {
+  background: #422006;
+  color: #fbbf24;
+}
+
+/* =========================================
+   DATE
+========================================= */
+
+body.dark-mode .date-picker-group {
+  background: #111827;
+  border-color: #263247;
+
+  box-shadow: none;
+}
+
+body.dark-mode .date-icon {
+  background: #1e293b;
+}
+
+body.dark-mode .date-content label {
+  color: #64748b;
+}
+
+body.dark-mode .date-content input {
+  color: #e2e8f0;
+  color-scheme: dark;
+}
+
+/* =========================================
+   FORM
+========================================= */
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select {
+  border-color: #2d3a50;
+  background: #111827;
+  color: #e2e8f0;
+
+  color-scheme: dark;
+}
+
+body.dark-mode .form-group input::placeholder {
+  color: #64748b;
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group select:focus {
+  border-color: #6366f1;
+
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.14);
+}
+
+body.dark-mode .form-group button {
+  background: #6366f1;
+
+  box-shadow: 0 5px 14px rgba(99, 102, 241, 0.18);
+}
+
+body.dark-mode .form-group button:hover {
+  background: #4f46e5;
+}
+
+/* =========================================
+   TABLE CARD
+========================================= */
+
+body.dark-mode .table-card {
+  background: #111827;
+  border-color: #1f2a3d;
+
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-mode .table-header {
+  border-color: #1f2a3d;
+}
+
+body.dark-mode .table-header h2 {
+  color: #f1f5f9;
+}
+
+body.dark-mode .table-header p {
+  color: #64748b;
+}
+
+body.dark-mode .student-count {
+  background: #1e293b;
+  color: #94a3b8;
+}
+
+/* =========================================
+   TABLE
+========================================= */
+
+body.dark-mode thead {
+  background: #0c1422;
+}
+
+body.dark-mode th {
+  color: #64748b;
+}
+
+body.dark-mode td {
+  border-color: #1f2937;
+  color: #cbd5e1;
+}
+
+body.dark-mode tbody tr:hover {
+  background: #151f30;
+}
+
+body.dark-mode .index-cell {
+  color: #64748b;
+}
+
+/* =========================================
+   STUDENT
+========================================= */
+
+body.dark-mode .avatar,
+body.dark-mode .modal-avatar {
+  background: #1e1b4b;
+  color: #a5b4fc;
+}
+
+body.dark-mode .student-details strong {
+  color: #e2e8f0;
+}
+
+body.dark-mode .student-details small {
+  color: #64748b;
+}
+
+body.dark-mode .student-profile:hover .student-details strong {
+  color: #a5b4fc;
+}
+
+/* =========================================
+   ATTENDANCE
+========================================= */
+
+body.dark-mode .checkmark {
+  border-color: #475569;
+  background: #0f172a;
+}
+
+body.dark-mode .attendance input:checked + .checkmark {
+  border-color: #10b981;
+  background: #10b981;
+}
+
+body.dark-mode .present-text {
+  color: #34d399;
+}
+
+body.dark-mode .absent-text {
+  color: #f87171;
+}
+
+/* =========================================
+   TASK
+========================================= */
+
+body.dark-mode .task-select {
+  color-scheme: dark;
+}
+
+body.dark-mode .task-select.bajarilgan {
+  border-color: #14532d;
+  background: #052e16;
+  color: #4ade80;
+}
+
+body.dark-mode .task-select.toliq {
+  border-color: #713f12;
+  background: #422006;
+  color: #facc15;
+}
+
+body.dark-mode .task-select.bajarilmagan {
+  border-color: #7f1d1d;
+  background: #3b1118;
+  color: #f87171;
+}
+
+/* =========================================
+   DELETE
+========================================= */
+
+body.dark-mode .delete-btn {
+  border-color: #4c1d1d;
+  background: #2b1115;
+}
+
+body.dark-mode .delete-btn:hover {
+  border-color: #7f1d1d;
+  background: #3b1118;
+}
+
+/* =========================================
+   EMPTY
+========================================= */
+
+body.dark-mode .empty-state strong {
+  color: #cbd5e1;
+}
+
+body.dark-mode .empty-state span {
+  color: #64748b;
+}
+
+/* =========================================
+   MODAL
+========================================= */
+
+body.dark-mode .modal {
+  background: rgba(2, 6, 23, 0.78);
+}
+
+body.dark-mode .modal-content {
+  border-color: #273449;
+  background: #111827;
+
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .modal-close {
+  background: #1e293b;
+  color: #94a3b8;
+}
+
+body.dark-mode .modal-close:hover {
+  background: #273449;
+  color: #e2e8f0;
+}
+
+body.dark-mode .modal-profile h3 {
+  color: #f8fafc;
+}
+
+body.dark-mode .modal-profile span {
+  color: #64748b;
+}
+
+/* =========================================
+   STUDENT INFO
+========================================= */
+
+body.dark-mode .student-info-box > div {
+  border-color: #273449;
+  background: #0f172a;
+}
+
+body.dark-mode .student-info-box span {
+  color: #64748b;
+}
+
+body.dark-mode .student-info-box strong {
+  color: #e2e8f0;
+}
+
+body.dark-mode .modal-content h4 {
+  color: #cbd5e1;
+}
+
+/* =========================================
+   HISTORY
+========================================= */
+
+body.dark-mode .history-list {
+  border-color: #273449;
+  background: #0f172a;
+}
+
+body.dark-mode .history-item {
+  border-color: #273449;
+  background: #111827;
+}
+
+body.dark-mode .history-item strong {
+  color: #e2e8f0;
+}
+
+body.dark-mode .history-item span {
+  color: #64748b;
+}
+
+body.dark-mode .history-present {
+  background: #052e24;
+  color: #34d399 !important;
+}
+
+body.dark-mode .history-absent {
+  background: #3b1118;
+  color: #f87171 !important;
+}
+
+body.dark-mode .history-task-done {
+  background: #172554;
+  color: #60a5fa !important;
+}
+
+body.dark-mode .history-task-not {
+  background: #431407;
+  color: #fb923c !important;
+}
+
+body.dark-mode .no-history {
+  color: #64748b;
+}
+
+/* =========================================
+   MODAL BUTTON
+========================================= */
+
+body.dark-mode .modal-close-btn {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+body.dark-mode .modal-close-btn:hover {
+  background: #ffffff;
+}
+
+/* =========================================
+   SCROLLBAR
+========================================= */
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #334155;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
