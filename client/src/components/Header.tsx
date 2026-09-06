@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ darkMode, onToggleDarkMode }) => {
   return (
-    <header className="header">
+    <header className="header container" style={{ marginBottom: "50px" }}>
       <div className="header-left">
         <div className="logo">
           <span className="logo-icon">🎓</span>
