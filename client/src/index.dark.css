@@ -11,19 +11,25 @@ body.dark-mode {
    HEADER
 ========================================= */
 
-body.dark-mode .page-header h1 {
+body.dark-mode .page-header h1,
+body.dark-mode .logo h1 {
   color: #f8fafc;
 }
 
-body.dark-mode .page-header p {
+body.dark-mode .page-header p,
+body.dark-mode .logo p {
   color: #94a3b8;
+}
+
+body.dark-mode .logo-icon {
+  background: #1e1b4b;
+  color: #a5b4fc;
 }
 
 body.dark-mode .theme-toggle {
   border-color: #263247;
   background: #111827;
   color: #facc15;
-
   box-shadow: none;
 }
 
@@ -39,13 +45,11 @@ body.dark-mode .theme-toggle:hover {
 body.dark-mode .stat-card {
   background: #111827;
   border-color: #1f2a3d;
-
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18);
 }
 
 body.dark-mode .stat-card:hover {
   background: #131d2e;
-
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
 }
 
@@ -89,7 +93,6 @@ body.dark-mode .stat-card.warning .stat-icon {
 body.dark-mode .date-picker-group {
   background: #111827;
   border-color: #263247;
-
   box-shadow: none;
 }
 
@@ -115,7 +118,6 @@ body.dark-mode .form-group select {
   border-color: #2d3a50;
   background: #111827;
   color: #e2e8f0;
-
   color-scheme: dark;
 }
 
@@ -126,13 +128,11 @@ body.dark-mode .form-group input::placeholder {
 body.dark-mode .form-group input:focus,
 body.dark-mode .form-group select:focus {
   border-color: #6366f1;
-
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.14);
 }
 
 body.dark-mode .form-group button {
   background: #6366f1;
-
   box-shadow: 0 5px 14px rgba(99, 102, 241, 0.18);
 }
 
@@ -147,7 +147,6 @@ body.dark-mode .form-group button:hover {
 body.dark-mode .table-card {
   background: #111827;
   border-color: #1f2a3d;
-
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
 
@@ -300,7 +299,6 @@ body.dark-mode .modal {
 body.dark-mode .modal-content {
   border-color: #273449;
   background: #111827;
-
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
 }
 
@@ -406,10 +404,10 @@ body.dark-mode .modal-close-btn:hover {
    SCROLLBAR
 ========================================= */
 
-body.dark-mode ::-webkit-scrollbar-thumb {
+body.dark-mode *::-webkit-scrollbar-thumb {
   background: #334155;
 }
 
-body.dark-mode ::-webkit-scrollbar-thumb:hover {
+body.dark-mode *::-webkit-scrollbar-thumb:hover {
   background: #475569;
 }
