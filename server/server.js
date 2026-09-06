@@ -3,7 +3,9 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+
 const studentRoutes = require("./routes/student.routes");
+const authRoutes = require("./routes/auth.routes");
 
 const app = express();
 
@@ -12,6 +14,7 @@ app.use(express.json());
 app.use(cors());
 
 // Routes
+app.use("/api/auth", authRoutes);
 app.use("/api/students", studentRoutes);
 
 const PORT = process.env.PORT || 5000;
@@ -19,9 +22,10 @@ const DB_URL = process.env.DB_URL;
 
 const bootstrap = async () => {
   try {
-    await mongoose
-      .connect(DB_URL)
-      .then(() => console.log("Connected to the database"));
+    await mongoose.connect(DB_URL);
+
+    console.log("Connected to the database");
+
     app.listen(PORT, () => {
       console.log(`Listening on - http://localhost:${PORT}`);
     });
