@@ -1,7 +1,9 @@
+import type { TaskStatus } from "../types/student.type";
+
 export interface HistoryRecord {
   date: string;
   attendance: boolean;
-  taskStatus: "bajarilgan" | "toliq bajarilmagan" | "bajarilmagan";
+  taskStatus: TaskStatus;
 }
 
 export interface Student {
