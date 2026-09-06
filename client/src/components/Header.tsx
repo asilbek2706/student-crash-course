@@ -3,6 +3,7 @@ import React from "react";
 interface HeaderProps {
   darkMode: boolean;
   onToggleDarkMode: () => void;
+  onLogout: () => void;
 }
 
 const Header: React.FC<HeaderProps> = ({ darkMode, onToggleDarkMode }) => {
