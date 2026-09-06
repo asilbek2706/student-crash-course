@@ -411,3 +411,41 @@ body.dark-mode *::-webkit-scrollbar-thumb {
 body.dark-mode *::-webkit-scrollbar-thumb:hover {
   background: #475569;
 }
+
+body.dark-mode .login-page {
+  background: #0f172a;
+}
+
+body.dark-mode .login-card {
+  background: #111827;
+  border-color: #1f2937;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+body.dark-mode .login-icon {
+  background: #1e1b4b;
+}
+
+body.dark-mode .login-card h1 {
+  color: #f8fafc;
+}
+
+body.dark-mode .login-card > p {
+  color: #94a3b8;
+}
+
+body.dark-mode .login-input-group label {
+  color: #e2e8f0;
+}
+
+body.dark-mode .login-input-group input {
+  background: #0f172a;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+body.dark-mode .logout-btn {
+  background: #450a0a;
+  border-color: #7f1d1d;
+  color: #fca5a5;
+}
